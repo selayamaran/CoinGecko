@@ -1,0 +1,64 @@
+*{
+  font-family: "Roboto";
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  margin: 10px auto;
+}
+.row{
+  display: flex;
+    justify-content: center;
+}
+thead tr{
+ line-height: 3rem;
+    background: #407bff;
+    color: #fff;
+}
+thead tr th{
+ padding: 0 10px;
+}
+tbody tr{
+ border-bottom: 1px solid #ddd;
+}
+tbody tr td{
+  text-align: center;
+    height: 3rem;
+
+}
+
+td img{
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
+
+.coin-detail {
+  width: 50%;
+  margin: 10px;
+  border-collapse: collapse;
+}
+
+.coin-detail > tr > td {
+  padding: 10px;
+}
+
+table.coin-detail > tr > td:first-child { 
+  width: 20%; 
+}
+.header {
+  padding: 1rem 0;
+}
+
+.main-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-content {
+  border: solid 1px red;
+  width: 100%;
+  margin-top: 2rem;
+}
